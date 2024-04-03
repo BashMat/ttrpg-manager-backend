@@ -1,4 +1,4 @@
-namespace TtrpgManagerBacked;
+namespace TtrpgManagerBackend;
 
 public class Program
 {

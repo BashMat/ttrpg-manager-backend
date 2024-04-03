@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace TtrpgManagerBacked.Controllers;
+namespace TtrpgManagerBackend.Controllers;
 
 [ApiController]
 [Route("[controller]")]

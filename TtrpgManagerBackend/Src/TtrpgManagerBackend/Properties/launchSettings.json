@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "TtrpgManagerBacked (Production)": {
+    "TtrpgManagerBackend (Production)": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
@@ -19,7 +19,7 @@
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
-    "TtrpgManagerBacked (Development)": {
+    "TtrpgManagerBackend (Development)": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
