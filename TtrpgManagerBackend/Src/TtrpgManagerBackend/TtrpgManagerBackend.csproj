@@ -8,12 +8,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.28" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.8" />
         <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\TtrpgManagerBackend.Common\TtrpgManagerBackend.Common.csproj" />
+      <ProjectReference Include="..\TtrpgManagerBackend.DataAccess\TtrpgManagerBackend.DataAccess.csproj" />
+      <ProjectReference Include="..\TtrpgManagerBackend.Domain\TtrpgManagerBackend.Domain.csproj" />
+      <ProjectReference Include="..\TtrpgManagerBackend.Dto\TtrpgManagerBackend.Dto.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Services\" />
     </ItemGroup>
 
 </Project>
