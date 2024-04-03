@@ -1,3 +1,6 @@
+using System.Configuration;
+using TtrpgManagerBackend.Common;
+
 namespace TtrpgManagerBackend;
 
 public class Program
@@ -5,6 +8,11 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
+        if (builder.Configuration[ConfigurationKeys.Token] == null)
+        {
+            throw new ConfigurationErrorsException("Secret key for token was not specified");
+        }
 
         // Add services to the container.
 
