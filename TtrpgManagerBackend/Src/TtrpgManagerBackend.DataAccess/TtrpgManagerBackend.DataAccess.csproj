@@ -7,12 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repositories\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\TtrpgManagerBackend.Common\TtrpgManagerBackend.Common.csproj" />
       <ProjectReference Include="..\TtrpgManagerBackend.Domain\TtrpgManagerBackend.Domain.csproj" />
+      <ProjectReference Include="..\TtrpgManagerBackend.Dto\TtrpgManagerBackend.Dto.csproj" />
     </ItemGroup>
 
     <ItemGroup>

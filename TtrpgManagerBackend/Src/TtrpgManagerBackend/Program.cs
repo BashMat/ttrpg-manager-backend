@@ -7,6 +7,7 @@ using Swashbuckle.AspNetCore.Filters;
 using TtrpgManagerBackend.Common;
 using TtrpgManagerBackend.DataAccess.Repositories.User;
 using TtrpgManagerBackend.Services.Auth;
+using TtrpgManagerBackend.Services.Character;
 
 namespace TtrpgManagerBackend;
 
@@ -38,9 +39,10 @@ public class Program
             options.OperationFilter<SecurityRequirementsOperationFilter>();
         });
         
-        builder.Services.AddScoped<IAuthService, AuthService>(); ;
-        builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<IAuthService, AuthService>();
         builder.Services.AddScoped<IAuthProvider, AuthProvider>();
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<ICharacterService, CharacterService>();
         
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
         {
