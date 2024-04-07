@@ -21,8 +21,4 @@
       <ProjectReference Include="..\TtrpgManagerBackend.Dto\TtrpgManagerBackend.Dto.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Services\" />
-    </ItemGroup>
-
 </Project>
