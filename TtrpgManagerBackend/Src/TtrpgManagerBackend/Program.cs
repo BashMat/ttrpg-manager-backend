@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using TtrpgManagerBackend.Common;
+using TtrpgManagerBackend.DataAccess.Repositories.Character;
 using TtrpgManagerBackend.DataAccess.Repositories.User;
 using TtrpgManagerBackend.Services.Auth;
 using TtrpgManagerBackend.Services.Character;
@@ -43,6 +44,7 @@ public class Program
         builder.Services.AddScoped<IAuthProvider, AuthProvider>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<ICharacterService, CharacterService>();
+        builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
         
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
         {

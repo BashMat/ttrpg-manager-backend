@@ -1,7 +1,8 @@
 ﻿namespace TtrpgManagerBackend.Dto.Character;
 
-public class CharacterCreateRequestDto
+public class CharacterInsertDto
 {
+    public int PlayerId { get; set; }
     public string Name { get; set; }
     public int RaceId { get; set; }
     public int ClassId { get; set; }

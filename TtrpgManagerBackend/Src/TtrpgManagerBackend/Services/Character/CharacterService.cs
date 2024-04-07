@@ -15,11 +15,22 @@ namespace TtrpgManagerBackend.Services.Character
             _characterRepository = characterRepository;
         }
         
-        public async Task<ServiceResponse<CharacterCreateResponseDto>> Create(int userId, CharacterCreateRequestDto requestData)
+        public async Task<ServiceResponse<CharacterGetResponseDto>> Create(int userId, CharacterCreateRequestDto requestData)
         {
-            ServiceResponse<CharacterCreateResponseDto> response = new()
+            CharacterInsertDto characterToInsert = new()
             {
-                Data = await _characterRepository.Insert(userId, requestData)
+                PlayerId = userId,
+                Name = requestData.Name,
+                RaceId = requestData.RaceId,
+                ClassId = requestData.ClassId,
+                Level = requestData.Level,
+                MaxHealthPoints = requestData.MaxHealthPoints,
+                HealthPoints = requestData.HealthPoints
+            };
+            
+            ServiceResponse<CharacterGetResponseDto> response = new()
+            {
+                Data = await _characterRepository.Insert(characterToInsert)
             };
 
             if (response.Data == null)
