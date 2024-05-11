@@ -1,6 +1,6 @@
 ﻿using TtrpgManagerBackend.Dto.Character;
 
-namespace TtrpgManagerBackend.Services.Character
+namespace TtrpgManagerBackend.Application.Services.Character
 {
 	public interface ICharacterService
 	{

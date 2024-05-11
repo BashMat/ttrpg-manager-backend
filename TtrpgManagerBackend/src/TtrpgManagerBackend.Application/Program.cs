@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using TtrpgManagerBackend.Application.Services.Auth;
+using TtrpgManagerBackend.Application.Services.Character;
 using TtrpgManagerBackend.Common;
 using TtrpgManagerBackend.DataAccess.Repositories.Character;
 using TtrpgManagerBackend.DataAccess.Repositories.User;
-using TtrpgManagerBackend.Services.Auth;
-using TtrpgManagerBackend.Services.Character;
 
-namespace TtrpgManagerBackend;
+namespace TtrpgManagerBackend.Application;
 
 public class Program
 {

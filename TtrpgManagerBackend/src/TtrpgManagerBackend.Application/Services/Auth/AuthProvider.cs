@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using TtrpgManagerBackend.Common;
 
-namespace TtrpgManagerBackend.Services.Auth;
+namespace TtrpgManagerBackend.Application.Services.Auth;
 
 public class AuthProvider : IAuthProvider
 {

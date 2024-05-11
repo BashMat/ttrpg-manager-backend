@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using TtrpgManagerBackend.Application.Services.Auth;
 using TtrpgManagerBackend.Dto.User;
-using TtrpgManagerBackend.Services.Auth;
 
-namespace TtrpgManagerBackend.Controllers
+namespace TtrpgManagerBackend.Application.Controllers
 {
     [Route("api/auth")]
     [ApiController]

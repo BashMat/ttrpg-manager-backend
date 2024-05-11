@@ -2,7 +2,7 @@
 using TtrpgManagerBackend.Domain;
 using TtrpgManagerBackend.Dto.User;
 
-namespace TtrpgManagerBackend.Services.Auth
+namespace TtrpgManagerBackend.Application.Services.Auth
 {
     public class AuthService : IAuthService
     {

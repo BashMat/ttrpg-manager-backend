@@ -1,4 +1,4 @@
-﻿namespace TtrpgManagerBackend.Services.Auth;
+﻿namespace TtrpgManagerBackend.Application.Services.Auth;
 
 public interface IAuthProvider
 {

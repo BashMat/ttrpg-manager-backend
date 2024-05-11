@@ -1,7 +1,7 @@
 using TtrpgManagerBackend.Dto.Character;
 using TtrpgManagerBackend.DataAccess.Repositories.Character;
 
-namespace TtrpgManagerBackend.Services.Character
+namespace TtrpgManagerBackend.Application.Services.Character
 {
     public class CharacterService : ICharacterService
     {

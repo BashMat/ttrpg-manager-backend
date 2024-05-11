@@ -1,4 +1,4 @@
-﻿namespace TtrpgManagerBackend
+﻿namespace TtrpgManagerBackend.Application
 {
     public class ServiceResponse<T>
     {

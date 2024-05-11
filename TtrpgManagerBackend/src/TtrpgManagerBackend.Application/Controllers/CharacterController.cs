@@ -2,10 +2,10 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using TtrpgManagerBackend.Application.Services.Character;
 using TtrpgManagerBackend.Dto.Character;
-using TtrpgManagerBackend.Services.Character;
 
-namespace TtrpgManagerBackend.Controllers
+namespace TtrpgManagerBackend.Application.Controllers
 {
     [Route("api/characters")]
     [ApiController]

@@ -1,6 +1,6 @@
 ﻿using TtrpgManagerBackend.Dto.User;
 
-namespace TtrpgManagerBackend.Services.Auth
+namespace TtrpgManagerBackend.Application.Services.Auth
 {
 	public interface IAuthService
 	{
