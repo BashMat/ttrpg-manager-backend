@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend", "Src\TtrpgManagerBackend\TtrpgManagerBackend.csproj", "{F512466B-16EF-4280-8C3C-7DF3B5F23028}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend", "src\TtrpgManagerBackend\TtrpgManagerBackend.csproj", "{F512466B-16EF-4280-8C3C-7DF3B5F23028}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1D50C953-BA1F-4B16-85E9-5A6CF7F72951}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D50C953-BA1F-4B16-85E9-5A6CF7F72951}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.DataAccess", "Src\TtrpgManagerBackend.DataAccess\TtrpgManagerBackend.DataAccess.csproj", "{FB075485-9C9A-45BA-8FC3-C30BD0569FEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.DataAccess", "src\TtrpgManagerBackend.DataAccess\TtrpgManagerBackend.DataAccess.csproj", "{FB075485-9C9A-45BA-8FC3-C30BD0569FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Dto", "Src\TtrpgManagerBackend.Dto\TtrpgManagerBackend.Dto.csproj", "{F4E851E3-FC24-4C0B-B333-862AEAA84DB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Dto", "src\TtrpgManagerBackend.Dto\TtrpgManagerBackend.Dto.csproj", "{F4E851E3-FC24-4C0B-B333-862AEAA84DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Common", "Src\TtrpgManagerBackend.Common\TtrpgManagerBackend.Common.csproj", "{125803C1-DC5B-4C85-9D95-B698C33D32A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Common", "src\TtrpgManagerBackend.Common\TtrpgManagerBackend.Common.csproj", "{125803C1-DC5B-4C85-9D95-B698C33D32A5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2C912B02-1349-4E96-838F-491BEA61BEF9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2C912B02-1349-4E96-838F-491BEA61BEF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Domain", "Src\TtrpgManagerBackend.Domain\TtrpgManagerBackend.Domain.csproj", "{6E4964AB-8088-4320-ACB1-1915DF72A5B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TtrpgManagerBackend.Domain", "src\TtrpgManagerBackend.Domain\TtrpgManagerBackend.Domain.csproj", "{6E4964AB-8088-4320-ACB1-1915DF72A5B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
